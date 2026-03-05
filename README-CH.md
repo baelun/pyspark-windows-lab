@@ -1,6 +1,3 @@
-# pyspark-windows-lab
-PySpark on Windows: Environment setup, ClickHouse/Kafka integration, and Structured Streaming notes.
-----
 Pyspark
 ==
 ## 1. 什麼是 PySpark ？
@@ -316,7 +313,7 @@ Apache Spark 採用 主從式（Master–Worker）架構，主要包含以下元
 
 
 ## Streaming Job
-### 🔍 Spark 如何處理 Streaming Job？
+### Spark 如何處理 Streaming Job？
 | 概念 | 說明 |
 | ---| --- |
 | 每個 `.writeStream.start()` | 會產生一個 **獨立的 Spark Job**（在 JVM 裡執行） |
